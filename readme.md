@@ -78,6 +78,6 @@ If you haven't installed Allure CLI, you can do so using the following:
 
 After running test you can generate a report via Allure by running: 
 
-      ```bash
-     allure generate allure-results && allure open
+ ```
+    allure generate allure-results && allure open
      ```
