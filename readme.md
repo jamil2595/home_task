@@ -63,9 +63,9 @@ Replace "test.apk" file with actual apk file. And make sure you have running emu
 
 Turn on the appium server by running:
 
-     ```
+```bash
      appium
-     ```
+```
 
 To run the test suite, you can use the following command:
 
@@ -78,13 +78,13 @@ To run the test suite, you can use the following command:
 
 If you haven't installed Allure CLI, you can do so using the following:
 
-` ```
+ ```bash
      npm install -g allure-commandline
-     ```
+```
 
 
 After running test you can generate a report via Allure by running: 
 
- ```
+ ```bash
     allure generate allure-results && allure open
-     ```
+ ```
