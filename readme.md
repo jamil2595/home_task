@@ -60,6 +60,13 @@ Before you begin setting up and running your Appium test automation project, you
 ## Running Tests
 
 Replace "test.apk" file with actual apk file. And make sure you have running emulator and proper the desired capabilites in the config file based on emulator specifications.
+
+Turn on the appium server by running:
+
+     ```bash
+     appium
+     ```
+
 To run the test suite, you can use the following command:
 
 ` ```
