@@ -63,7 +63,7 @@ Replace "test.apk" file with actual apk file. And make sure you have running emu
 
 Turn on the appium server by running:
 
-     ```bash
+     ```
      appium
      ```
 
