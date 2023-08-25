@@ -42,7 +42,7 @@ Before you begin setting up and running your Appium test automation project, you
    - Clone your test automation project repository to your local machine using Git:
      ```bash
      git clone https://github.com/jamil2595/home_task
-     cd home-task
+     cd home_task
      ```
 
 2. **Install Dependencies:**
@@ -78,6 +78,6 @@ If you haven't installed Allure CLI, you can do so using the following:
 
 After running test you can generate a report via Allure by running: 
 
- ```
+      ```bash
      allure generate allure-results && allure open
      ```
