@@ -71,9 +71,10 @@ To run the test suite, you can use the following command:
 
 If you haven't installed Allure CLI, you can do so using the following:
 
- ```
+` ```
      npm install -g allure-commandline
      ```
+
 
 After running test you can generate a report via Allure by running: 
 
