@@ -59,10 +59,10 @@ Before you begin setting up and running your Appium test automation project, you
 
 ## Running Tests
 
-Make sure you have running emulator and fix the desired capabilites in the config file based on emulator specifications.
+Replace "test.apk" file with actual apk file. And make sure you have running emulator and proper the desired capabilites in the config file based on emulator specifications.
 To run the test suite, you can use the following command:
 
-` ```bash
+` ```
      npx wdio --spec tests/android/<test-file-name>.spec.js
      ```
 
@@ -71,12 +71,12 @@ To run the test suite, you can use the following command:
 
 If you haven't installed Allure CLI, you can do so using the following:
 
-` ```bash
+ ```
      npm install -g allure-commandline
      ```
 
 After running test you can generate a report via Allure by running: 
 
-` ```bash
+ ```
      allure generate allure-results && allure open
      ```
